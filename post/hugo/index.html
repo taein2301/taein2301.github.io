@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-theme=""><head>
-    <title> Jane Doe | Website of Jane Doe </title>
+    <title> Jane Doe | Hugo </title>
 
     
     <meta charset="utf-8"><meta name="generator" content="Hugo 0.80.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
@@ -29,10 +29,9 @@
     <link rel="icon" type="image/png" sizes="32x32" href="https://taein2301.github.io/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="https://taein2301.github.io/favicons/favicon-16x16.png">
 
-    <link rel="canonical" href="https://taein2301.github.io/">
+    <link rel="canonical" href="https://taein2301.github.io/post/hugo/">
 
     
-    <link rel="alternate" type="application/rss+xml" href="https://taein2301.github.io/index.xml" title="Website of Jane Doe" />
     
     
     
@@ -53,17 +52,20 @@
     <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://taein2301.github.io/images/site-feature-image.png"/>
 
-<meta name="twitter:title" content="Website of Jane Doe"/>
-<meta name="twitter:description" content="Call me Jane"/>
+<meta name="twitter:title" content="Hugo"/>
+<meta name="twitter:description" content="Hugo Install Download MAC OS 기준
+ brew install hugo"/>
 
 
     
-    <meta property="og:title" content="Website of Jane Doe" />
-<meta property="og:description" content="Call me Jane" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://taein2301.github.io/" />
+    <meta property="og:title" content="Hugo" />
+<meta property="og:description" content="Hugo Install Download MAC OS 기준
+ brew install hugo" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://taein2301.github.io/post/hugo/" />
 <meta property="og:image" content="https://taein2301.github.io/images/site-feature-image.png"/>
-<meta property="og:updated_time" content="2021-03-09T00:25:00+09:00" /><meta property="og:site_name" content="I&#39;m Jane Doe" />
+<meta property="article:published_time" content="2021-03-09T00:25:00+09:00" />
+<meta property="article:modified_time" content="2021-03-09T00:25:00+09:00" /><meta property="og:site_name" content="I&#39;m Jane Doe" />
 
 </head>
 <body><div class="sidebar animated fadeInDown ">
@@ -118,7 +120,7 @@
         
         
             
-            <li><a class="current"
+            <li><a 
                    href="/"
                         
                    title="">Home</a></li>
@@ -154,44 +156,93 @@
 
     <div class="autopagerize_page_element">
         <div class="content">
-
     <div class="post  animated fadeInDown ">
-        
-        
-    </div>
-
-    
-    
-
-        <div class="post  animated fadeInDown ">
+        <div class="post-content">
             
             <div class="post-title">
-                <h3><a href="/post/hugo/">Hugo</a>
-                </h3>
-            </div>
-            <div class="post-content">
-                <div class="p_part"><p>Hugo Install Download MAC OS 기준
- brew install hugo</p></div>
-            </div>
-            <div class="post-footer">
-                <div class="meta">
+                <h3>Hugo</h3>
+                
                     <div class="info">
                         <em class="fas fa-calendar-day"></em>
-                            <span class="date"> Tue, Mar 9, 2021 
-                                             </span>
-                        
-                        <a class="tag"
-                                   href="/tags/blog/">blog</a>
+                        <span class="date"> Tue, Mar 9, 2021 
+                                           </span>
+                        <em class="fas fa-stopwatch"></em>
+                        <span class="reading-time">One-minute read</span>
                     </div>
-                </div>
+                
+            </div>
+
+            <h1 id="hugo-install">Hugo Install</h1>
+<h2 id="download">Download</h2>
+<p>MAC OS 기준</p>
+<blockquote>
+<p>brew install hugo</p>
+</blockquote>
+<h2 id="blog-뼈대-만들기">blog 뼈대 만들기</h2>
+<p>hugo new site BLOG</p>
+<p>~/BLOG 디렉토리 밑에 hugo blog 의 빼대가 생김</p>
+<blockquote>
+<p>tree -d BLOG</p>
+</blockquote>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">BLOG
+├── archetypes
+├── content
+├── data
+├── layouts
+├── static
+└── themes
+</code></pre></div><p>config.toml config 파일</p>
+<p>git init</p>
+<h2 id="themes-적용">Themes 적용</h2>
+<p><a href="https://themes.gohugo.io/">https://themes.gohugo.io/</a></p>
+<p>사이트에 들어가 테마를 고르고</p>
+<p>git submodule add <a href="https://github.com/lxndrblz/anatole.git">https://github.com/lxndrblz/anatole.git</a> themes/anatole</p>
+<p>./config.toml  파일 수정 ( 테마에서 제공하는 sample config 를 가지고 수정 : 대부분 의 경우 clone 받은 테마 디렉토리 안에 있다. )</p>
+<pre><code>baseurl 부분 삭제
+baseURL = &quot;&quot;
+</code></pre>
+<p>cp -rfp themes/anatole/exampleSite/config.toml .
+cp -rfp themes/anatole/exampleSite/static .</p>
+<h2 id="local-에서-확인">Local 에서 확인</h2>
+<p>hugo server -D</p>
+<p>-D 는Drafts 파일 까지 다 보여줌.
+Drafts 파일이란 작업중인 글을 말한다.
+새로운 글을 작성시 문서 첫부분에 Drafts 설정 부분이 있다.</p>
+<h2 id="github-에-올려거-인터넷으로-확인-하기">github 에 올려거 인터넷으로 확인 하기</h2>
+<p>Before proceeding run rm -rf public to completely remove the public directory
+git submodule add <a href="https://github.com/taein2301/taein2301.github.io.git">https://github.com/taein2301/taein2301.github.io.git</a> public
+git remote add origin <a href="https://github.com/taein2301/blog.git">https://github.com/taein2301/blog.git</a></p>
+<p>hugo
+명령어 수행 &gt; public 폴터가 생기고 해당 폴더를 github 에 올려서 인터넷으로 확인. </p>
+<h2 id="github-를-이용한-public">github 를 이용한 public</h2>
+<h3 id="github-repo-만들기">github repo 만들기</h3>
+<p>컨텐츠 관리 repository</p>
+<blockquote>
+<p>BLOG</p>
+</blockquote>
+<p>정적 Blog 를 생성한 repository</p>
+<blockquote>
+<p>githubid.github.io
+taein2301.github.io 이름으로 하나 만든다.</p>
+</blockquote>
+<p>git remote add origin <a href="https://github.com/taein2301/taein2301.github.io.git">https://github.com/taein2301/taein2301.github.io.git</a>
+git remote add origin <a href="https://github.com/taein2301/blog.git">https://github.com/taein2301/blog.git</a></p>
+<p><a href="https://taein2301.github.io/contact/images/profile.jpg">https://taein2301.github.io/contact/images/profile.jpg</a></p>
+<hr>
+<p>terminal vim 에서 클리보드 복사하려면 y 로 해야함.
+블럭 설정해서 cmd+c 로 해도 안됨.</p>
+</div>
+        <div class="post-footer">
+            <div class="info">
+                
+                <span class="separator"><a class="tag" href="/tags/blog/">blog</a></span>
+
             </div>
         </div>
-    
-    <div class="pagination">
+
         
-
-
     </div>
+
 
         </div>
     </div>
