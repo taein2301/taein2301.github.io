@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Website of Jane Doe</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 10 Mar 2021 12:25:19 +0900</lastBuildDate><atom:link href="https://taein2301.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Apr 2021 13:00:52 +0900</lastBuildDate><atom:link href="https://taein2301.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tt</title>
+      <link>https://taein2301.github.io/post/tt/</link>
+      <pubDate>Wed, 14 Apr 2021 13:00:52 +0900</pubDate>
+      
+      <guid>https://taein2301.github.io/post/tt/</guid>
+      <description>Hugo Image Test </description>
+    </item>
+    
     <item>
       <title>Vscode_extention_offline</title>
       <link>https://taein2301.github.io/post/vscode_extention_offline/</link>
@@ -23,6 +32,15 @@
       
       <guid>https://taein2301.github.io/post/hugo/</guid>
       <description>Hugo 정적 Blog 생성기. 비슷한 포지션에 jekyll 이 있다. 자료는 jekyll 이 많으나 ruby 로 구현 되어 있어서 go 언어로 구현되어있는 Hugo 를 선택하였다.</description>
+    </item>
+    
+    <item>
+      <title>Hugo Image TEST</title>
+      <link>https://taein2301.github.io/post/test/</link>
+      <pubDate>Tue, 09 Mar 2021 00:25:00 +0900</pubDate>
+      
+      <guid>https://taein2301.github.io/post/test/</guid>
+      <description>Hugo image 넣기 </description>
     </item>
     
   </channel>
