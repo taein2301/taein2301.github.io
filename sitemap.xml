@@ -1,25 +1,48 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
   <url>
     <loc>https://taein2301.github.io/post/</loc>
-    <lastmod>2021-04-14T13:00:52+09:00</lastmod>
-  </url><url>
+    <lastmod>2021-04-18T18:05:40+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://taein2301.github.io/post/test-imagets/</loc>
+    <lastmod>2021-04-18T18:05:40+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://taein2301.github.io/</loc>
+    <lastmod>2021-04-18T18:05:40+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://taein2301.github.io/post/tt/</loc>
     <lastmod>2021-04-14T13:00:52+09:00</lastmod>
-  </url><url>
-    <loc>https://taein2301.github.io/</loc>
-    <lastmod>2021-04-14T13:00:52+09:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://taein2301.github.io/post/vscode_extention_offline/</loc>
     <lastmod>2021-03-10T12:25:19+09:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://taein2301.github.io/post/hugo/</loc>
     <lastmod>2021-03-09T00:25:00+09:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://taein2301.github.io/post/test/</loc>
     <lastmod>2021-03-09T00:25:00+09:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
+    <loc>https://taein2301.github.io/post/0414/</loc>
+  </url>
+  
+  <url>
     <loc>https://taein2301.github.io/series/</loc>
   </url>
+  
 </urlset>

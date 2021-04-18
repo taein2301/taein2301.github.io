@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Website of Jane Doe</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 14 Apr 2021 13:00:52 +0900</lastBuildDate><atom:link href="https://taein2301.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Apr 2021 18:05:40 +0900</lastBuildDate><atom:link href="https://taein2301.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test Imagets</title>
+      <link>https://taein2301.github.io/post/test-imagets/</link>
+      <pubDate>Sun, 18 Apr 2021 18:05:40 +0900</pubDate>
+      
+      <guid>https://taein2301.github.io/post/test-imagets/</guid>
+      <description>TEST </description>
+    </item>
+    
     <item>
       <title>Tt</title>
       <link>https://taein2301.github.io/post/tt/</link>
@@ -40,7 +49,16 @@
       <pubDate>Tue, 09 Mar 2021 00:25:00 +0900</pubDate>
       
       <guid>https://taein2301.github.io/post/test/</guid>
-      <description>Hugo image 넣기 </description>
+      <description>Hugo image 넣기 A</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://taein2301.github.io/post/0414/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://taein2301.github.io/post/0414/</guid>
+      <description>bash script file 읽어서 string 붙여서 출력 for i in `cat .</description>
     </item>
     
   </channel>
