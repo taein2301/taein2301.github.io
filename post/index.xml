@@ -6,7 +6,17 @@
     <description>Recent content in Posts on Website of Jane Doe</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Apr 2021 18:05:40 +0900</lastBuildDate><atom:link href="https://taein2301.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Apr 2021 12:38:35 +0900</lastBuildDate><atom:link href="https://taein2301.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Windows</title>
+      <link>https://taein2301.github.io/post/windows/</link>
+      <pubDate>Wed, 28 Apr 2021 12:38:35 +0900</pubDate>
+      
+      <guid>https://taein2301.github.io/post/windows/</guid>
+      <description>Windows 에서 VSCODE project 에 BLOR_DEV 열고 &amp;gt;
+ctrl + shift + p &amp;gt; hugo : new post</description>
+    </item>
+    
     <item>
       <title>Test Imagets</title>
       <link>https://taein2301.github.io/post/test-imagets/</link>
