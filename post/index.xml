@@ -6,7 +6,25 @@
     <description>Recent content in Posts on Website of Jane Doe</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 01 Jun 2021 12:36:51 +0900</lastBuildDate><atom:link href="https://taein2301.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Jun 2021 12:53:20 +0900</lastBuildDate><atom:link href="https://taein2301.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>이미지</title>
+      <link>https://taein2301.github.io/post/2021-06-01-%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5/</link>
+      <pubDate>Tue, 01 Jun 2021 12:53:20 +0900</pubDate>
+      
+      <guid>https://taein2301.github.io/post/2021-06-01-%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>배포</title>
+      <link>https://taein2301.github.io/post/2021-06-01-%E1%84%87%E1%85%A2%E1%84%91%E1%85%A9/</link>
+      <pubDate>Tue, 01 Jun 2021 12:39:14 +0900</pubDate>
+      
+      <guid>https://taein2301.github.io/post/2021-06-01-%E1%84%87%E1%85%A2%E1%84%91%E1%85%A9/</guid>
+      <description>F4 ![img](/images/)  </description>
+    </item>
+    
     <item>
       <title>Jenkins_test</title>
       <link>https://taein2301.github.io/post/2021-06-01-jenkins_test/</link>
